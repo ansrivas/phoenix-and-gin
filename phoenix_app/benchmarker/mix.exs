@@ -37,7 +37,11 @@ defmodule Benchmarker.Mixfile do
       {:phoenix_html, "~> 2.10"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:credo, "~> 0.8", [only: [:dev, :test], runtime: false]},
+      {:exfmt, [github: "lpil/exfmt"]},
+      {:ex_doc,	[github:	"elixir-lang/ex_doc"]},
+      {:markdown,	[github:	"devinus/markdown"]},
     ]
   end
 end
