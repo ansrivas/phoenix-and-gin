@@ -33,6 +33,6 @@ To run:
 
 
 ---
-Now use [wkr](https://github.com/wg/wrk) to compare them:
+Now use [wrk](https://github.com/wg/wrk) to compare them:
 
   `wrk -t20 -c100 -d30S --timeout 2000 "http://127.0.0.1:3000/showdown"`
